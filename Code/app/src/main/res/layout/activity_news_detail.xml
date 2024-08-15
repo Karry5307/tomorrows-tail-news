@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    tools:context=".NewsDetailActivity">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarNewsDetail"
+        android:navigationIcon="@drawable/round_arrow_back_ios_new_24"
+        android:background="@color/mediumBlue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/titleNewsDetailToolbar"
+                android:layout_toLeftOf="@id/linearLayoutStar"
+                android:text="@string/newsDetail"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutStar"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/iconStarNewsDetail"
+                    android:padding="4dp"
+                    android:src="@drawable/round_star_border_24" />
+            </LinearLayout>
+        </RelativeLayout>
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgNewsDetail"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/videoNewsDetail"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleNewsDetail"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/publisherNewsDetail"
+                android:textColor="@color/gray"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/publishTimeNewsDetail"
+                android:textColor="@color/gray"
+                android:paddingBottom="32dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abstractWaiting"
+                android:id="@+id/abstractNewsDetail"
+                android:textSize="18sp"
+                android:textColor="@color/darkGrayText"
+                android:paddingBottom="32dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textNewsDetail"
+                android:textSize="18sp"
+                android:textColor="@color/darkGrayText"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

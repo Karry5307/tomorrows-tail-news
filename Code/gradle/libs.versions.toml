@@ -1,0 +1,46 @@
+[versions]
+agp = "8.5.0"
+bottomdialog = "1.1.9"
+glide = "4.16.0"
+gson = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+oapiJavaSdk = "release-V4-2.0.2"
+okhttp = "4.12.0"
+refreshLayoutKernel = "2.1.0"
+refreshHeaderClassics = "2.1.0"
+refreshHeaderRadar = "2.1.0"
+refreshHeaderFalsify = "2.1.0"
+refreshHeaderMaterial = "2.1.0"
+refreshHeaderTwoLevel = "2.1.0"
+
+[libraries]
+bottomdialog = { module = "me.shaohui:bottomdialog", version.ref = "bottomdialog" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+io-github-scwang90-refresh-footer-classics4 = { module = "io.github.scwang90:refresh-footer-classics", version.ref = "refreshLayoutKernel" }
+io-github-scwang90-refresh-footer-ball4 = { module = "io.github.scwang90:refresh-footer-ball", version.ref = "refreshLayoutKernel" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+oapi-java-sdk = { module = "cn.bigmodel.openapi:oapi-java-sdk", version.ref = "oapiJavaSdk" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+refresh-header-two-level = { module = "io.github.scwang90:refresh-header-two-level", version.ref = "refreshHeaderTwoLevel" }
+refresh-header-material = { module = "io.github.scwang90:refresh-header-material", version.ref = "refreshHeaderMaterial" }
+refresh-header-falsify = { module = "io.github.scwang90:refresh-header-falsify", version.ref = "refreshHeaderFalsify" }
+refresh-header-radar = { module = "io.github.scwang90:refresh-header-radar", version.ref = "refreshHeaderRadar" }
+refresh-header-classics = { module = "io.github.scwang90:refresh-header-classics", version.ref = "refreshHeaderClassics" }
+refresh-layout-kernel = { module = "io.github.scwang90:refresh-layout-kernel", version.ref = "refreshLayoutKernel" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">明日尾条</string>
+
+    <string name="bottomNavBarHome">主页</string>
+    <string name="bottomNavBarStar">我的收藏</string>
+    <string name="bottomNavBarHistory">历史记录</string>
+    <string name="searchSuggestion">姜萍</string>
+    <string name="searchWarning">（输入多个日期仅时序最靠后有效）</string>
+    <string name="newsDetail">新闻详情</string>
+    <string name="abstractWaiting">稍等一下，AI 正在生成摘要中……</string>
+</resources>

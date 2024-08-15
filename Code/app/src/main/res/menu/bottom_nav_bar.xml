@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottomMenuHome"
+        android:title="@string/bottomNavBarHome"
+        android:icon="@drawable/outline_home_24"/>
+    <item
+        android:id="@+id/bottomMenuStar"
+        android:title="@string/bottomNavBarStar"
+        android:icon="@drawable/round_star_border_24"/>
+    <item
+        android:id="@+id/bottomMenuHistory"
+        android:title="@string/bottomNavBarHistory"
+        android:icon="@drawable/baseline_history_24"/>
+
+</menu>
